@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container h2{
+    text-shadow: 5px  #1b263b;
+    text-align:center;
+}
+.container{
+    width:40%;
+    margin:5rem auto;
+    border:1pt solid black;
+    border-radius:3rem;
+    padding:2rem 0rem;
+    height:100vh;
+    background-color:#ffcad4;
+    display:flex;
+    justify-content:center;
+    
+}
+h3{
+    margin-top:3rem;
+    text-align:center;
+}
+.container input,button{
+    width:100%;
+    border:none;
+    outline:none;
+    border-radius:0.8rem;
+    height:3rem;
+    margin:1rem 0rem;
+    padding:0 1rem;
+}
+.mine{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+   
+}
+.middle{
+    margin-right-left:2rem;
+}
+.container .from, 
+.container .to { 
+    display: flex;
+    justify-content: center;
+    gap:0.5rem;
+}
+select{
+    margin-top:1rem;
+    width:4rem;
+    height:2rem;
+    border:none;
+    outline:none;
+}
+.too{
+    margin:2rem;
+    text-align: center;
+}
+button{
+    height:3rem;
+    width:15rem;
+    margin:1em 3rem;
+    text-align: center;
+    line-height:1rem;
+    background-color:#1b263b;
+    color:white;
+    cursor:pointer;
+    box-shadow:inset 0.5rem 0.5rem 0.5rem #1b263b ;
+}
+button:hover{
+    background-color: white;
+    color:#1b263b;
+} 
